@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#barra{
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 5px;
+    height: 30px;
+
+}
+#logo{
+    float: left;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 3px 5px;
+}
+
+#contenedorBotones{
+    margin: 0 auto;
+    width: 240px;
+}
+
+.boton{
+    float: left;
+    border: 1px solid gray;
+    padding: 6px;
+    border-right: none;
+    font-size: 90%;
+}
+
+.boton:hover{
+    cursor:pointer;
+}
+
+#output{
+    border-right: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+#html{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
+
+}
+
+.botonMarcado{
+    background-color: #E5E5E5;
+}
+
+.activo{
+    background-color: #EbF4FF;
+}
+
+textarea{
+    resize: none;
+    border-top: none;
+    border-color: gray;
+}
+
+.panel{
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+
+iframe{
+    border: none;
+}
+
+.oculto{
+    display: none;
+}
